@@ -7,7 +7,7 @@ import (
 )
 
 func handler(w http.ResponseWriter, r *http.Request) {
-    fmt.Fprintf(w, "The new super %s service is working!", r.URL.Path[1:])
+    fmt.Fprintf(w, "The new updated %s service is working!", r.URL.Path[1:])
 }
 
 func main() {
