@@ -14,5 +14,3 @@ func main() {
     http.HandleFunc("/", handler)
     log.Fatal(http.ListenAndServe(":8081", nil))
 }
-
-
